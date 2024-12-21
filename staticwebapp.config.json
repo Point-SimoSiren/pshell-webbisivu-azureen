@@ -3,7 +3,8 @@
     {
       "route": "/",
       "methods": [
-        "get"
+        "get",
+        "post"
       ],
       "rewrite": "/Index.html",
       "statusCode": 200
