@@ -2,7 +2,11 @@
   "routes": [
     {
       "route": "/",
-      "redirect": "/Index.html"
+      "methods": [
+        "get"
+      ],
+      "rewrite": "/Index.html",
+      "statusCode": 200
     }
   ]
 }
